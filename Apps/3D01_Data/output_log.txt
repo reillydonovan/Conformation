@@ -21,7 +21,7 @@ Platform assembly: C:\Users\Currents\Documents\GitHub\Conformation\Apps\3D01_Dat
 Loading C:\Users\Currents\Documents\GitHub\Conformation\Apps\3D01_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
 Platform assembly: C:\Users\Currents\Documents\GitHub\Conformation\Apps\3D01_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\Currents\Documents\GitHub\Conformation\Apps\3D01_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.248 seconds
+- Completed reload, in  0.017 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
@@ -47,11 +47,7 @@ The referenced script on this Behaviour (Game Object 'Mirror') is missing!
 
 UnloadTime: 0.473240 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 35dc -> priority: 1 
-  Thread -> id: 31b4 -> priority: 1 
-  Thread -> id: 3c8c -> priority: 1 
-  Thread -> id: 1844 -> priority: 1 
-OpenVR Shutdown
- 
-(Filename:  Line: 1253)
-
+  Thread -> id: 3794 -> priority: 1 
+  Thread -> id: 3d44 -> priority: 1 
+  Thread -> id: 4bcc -> priority: 1 
+  Thread -> id: 3d78 -> priority: 1 
