@@ -34,7 +34,9 @@ public class M4ExampleShowcaser : MonoBehaviour
 
     void Update ()
     {
-        _T = Mathf.Sin(Time.deltaTime);
+        _T = Time.time/8;
+        _U = Time.time/12;
+        _V = Time.time/16;
         euler.xyz += new Vector3(_X, _Y, _Z) * speed * Time.deltaTime;
         euler.tuv += new Vector3(_T, _U, _V) * speed * Time.deltaTime;
        // scale.w += _W * speed;
