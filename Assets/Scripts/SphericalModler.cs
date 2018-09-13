@@ -32,6 +32,7 @@ public class SphericalModler : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
+        Cursor.visible = false;
 		//we need a mesh filter
 		GetComponent<MeshFilter>().mesh = new Mesh();
 	}

@@ -1,0 +1,243 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8096 MB
+    Driver:   23.21.13.8800
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.191 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'Plane (1)') is missing!
+ 
+(Filename:  Line: 1758)
+
+UnloadTime: 1.366836 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at M4ExampleShowcaser.SetSycle () [0x00000] in <filename unknown>:0 
+  at M4ExampleShowcaser.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: c64 -> priority: 1 
+  Thread -> id: 9a8 -> priority: 1 
+  Thread -> id: 1094 -> priority: 1 
+  Thread -> id: 216c -> priority: 1 
+d3d11: failed to create buffer (target 0x1 mode 0 size 9600) [0x8007000E]
+d3d11: failed to create buffer (target 0x1 mode 0 size 9600) [0x8007000E]
+d3d11: failed to create buffer (target 0x1 mode 0 size 9600) [0x8007000E]
+d3d11: failed to create buffer (target 0x1 mode 0 size 9600) [0x8007000E]
+d3d11: failed to create buffer (target 0x2 mode 0 size 2400) [0x8007000E]
+d3d11: failed to create buffer (target 0x1 mode 0 size 9600) [0x8007000E]
+d3d11: failed to create buffer (target 0x1 mode 0 size 9600) [0x8007000E]
+d3d11: failed to create buffer (target 0x1 mode 0 size 9600) [0x8007000E]
+d3d11: failed to create buffer (target 0x2 mode 0 size 2400) [0x8007000E]
+d3d11: failed to create buffer (target 0x1 mode 0 size 9600) [0x8007000E]
+DynamicHeapAllocator allocation probe 1 failed - Could not get memory for large allocation 120016.
+DynamicHeapAllocator allocation probe 2 failed - Could not get memory for large allocation 120016.
+DynamicHeapAllocator allocation probe 1 failed - Could not get memory for large allocation 120016.
+DynamicHeapAllocator allocation probe 2 failed - Could not get memory for large allocation 120016.
+DynamicHeapAllocator allocation probe 3 failed - Could not get memory for large allocation 120016.
+DynamicHeapAllocator allocation probe 4 failed - Could not get memory for large allocation 120016.
+DynamicHeapAllocator out of memory - Could not get memory for large allocation 120016!
+Could not allocate memory: System out of memory!
+Trying to allocate: 120016B with 32 alignment. MemoryLabel: VertexData
+Allocation happend at: Line:132 in 
+Memory overview
+
+[ ALLOC_DEFAULT ] used: 1215411552B | peak: 0B | reserved: 1553989632B 
+[ ALLOC_TEMP_JOB ] used: 0B | peak: 0B | reserved: 2097152B 
+[ ALLOC_GFX ] used: 12687694504B | peak: 0B | reserved: 16016304176B 
+[ ALLOC_CACHEOBJECTS ] used: 370000B | peak: 0B | reserved: 10485760B 
+[ ALLOC_TYPETREE ] used: 0B | peak: 0B | reserved: 0B 
+[ ALLOC_PROFILER ] used: 0B | peak: 0B | reserved: 0B 
+[ ALLOC_TEMP_THREAD ] used: 32768B | peak: 0B | reserved: 4685824B 
+Could not allocate memory: System out of memory!
+Trying to allocate: 120016B with 32 alignment. MemoryLabel: VertexData
+Allocation happend at: Line:132 in 
+Memory overview
+
+[ ALLOC_DEFAULT ] used: 1215411552B | peak: 0B | reserved: 1553989632B 
+[ ALLOC_TEMP_JOB ] used: 0B | peak: 0B | reserved: 2097152B 
+[ ALLOC_GFX ] used: 12687694504B | peak: 0B | reserved: 16016304176B 
+[ ALLOC_CACHEOBJECTS ] used: 370000B | peak: 0B | reserved: 10485760B 
+[ ALLOC_TYPETREE ] used: 0B | peak: 0B | reserved: 0B 
+[ ALLOC_PROFILER ] used: 0B | peak: 0B | reserved: 0B 
+[ ALLOC_TEMP_THREAD ] used: 32768B | peak: 0B | reserved: 4685824B 
+
+ 
+(Filename:  Line: 1045)
+
+Crash!!!
+SymInit: Symbol-SearchPath: '.', symOptions: 534, UserName: 'reill'
+OS-Version: 10.0.15063 () 0x100-0x1
+C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01.exe:Conformation01.exe (00007FF70F490000), size: 24162304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.1.0.9747
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFCC05F0000), size: 1945600 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFCC0080000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.296
+C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFCBD0B0000), size: 2396160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\System32\USER32.dll:USER32.dll (00007FFCBF230000), size: 1351680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\System32\win32u.dll:win32u.dll (00007FFCBCB70000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFCC05A0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFCBB920000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFCBCF20000), size: 1605632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFCBFE70000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.15063.0
+C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFCBDAB0000), size: 630784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFCBCE20000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.413
+C:\Windows\System32\ole32.dll:ole32.dll (00007FFCBFBD0000), size: 1331200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.502
+C:\Windows\System32\combase.dll:combase.dll (00007FFCC0130000), size: 3117056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFCBF050000), size: 1200128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFCBCBE0000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFCB7EA0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\sechost.dll:sechost.dll (00007FFCC0020000), size: 364544 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFCBEFF0000), size: 331776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.502
+C:\Windows\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFCBF380000), size: 4435968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFCBCB90000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFCBFD20000), size: 659456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFCBDBB0000), size: 21192704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\System32\shcore.dll:shcore.dll (00007FFCBF180000), size: 696320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\System32\windows.storage.dll:windows.storage.dll (00007FFCBD300000), size: 7286784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\System32\kernel.appcore.dll:kernel.appcore.dll (00007FFCBCAF0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\powrprof.dll:powrprof.dll (00007FFCBCAA0000), size: 311296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\profapi.dll:profapi.dll (00007FFCBCA60000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFCC0500000), size: 442368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFCC0440000), size: 786432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.332
+C:\Windows\System32\IMM32.dll:IMM32.dll (00007FFCC0570000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFC9E530000), size: 1183744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFCB3660000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFCBC0F0000), size: 671744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFCBC0B0000), size: 225280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFCB90C0000), size: 880640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFC9E4E0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\NSI.dll:NSI.dll (00007FFCBF7C0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\winmmbase.dll:winmmbase.dll (00007FFCB35C0000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFCBB360000), size: 610304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Mono\EmbedRuntime\mono.dll:mono.dll (00007FFC98260000), size: 3002368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.0.1
+C:\Windows\System32\PSAPI.DLL:PSAPI.DLL (00007FFCC0430000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (00007FFCBC310000), size: 376832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\MSCTF.dll:MSCTF.dll (00007FFCBF9F0000), size: 1466368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.332
+C:\Windows\system32\dwmapi.dll:dwmapi.dll (00007FFCB3690000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFCBA2C0000), size: 3010560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFCBB9B0000), size: 671744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.502
+C:\Users\reill\Documents\GitHub\Conformation\Apps\Conformation01_Data\Plugins\OVRPlugin.dll:OVRPlugin.dll (00007FFC9A090000), size: 1941504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.14.0.0
+C:\Windows\SYSTEM32\WININET.dll:WININET.dll (00007FFCB29D0000), size: 3334144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.15063.608
+C:\Windows\System32\wintrust.DLL:wintrust.DLL (00007FFCBCB10000), size: 352256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\MSASN1.dll:MSASN1.dll (00007FFCBCA80000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFCBCC50000), size: 1871872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.296
+C:\Windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFCBC4B0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\system32\rsaenh.dll:rsaenh.dll (00007FFCBBF30000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFCBC890000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FFCBC4D0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\imagehlp.dll:imagehlp.dll (00007FFCC05D0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.168
+C:\Windows\SYSTEM32\gpapi.dll:gpapi.dll (00007FFCBB930000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll:LibOVRRT64_1.dll (00007FFC88450000), size: 2260992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.17.0.0
+C:\Windows\SYSTEM32\DbgHelp.dll:DbgHelp.dll (00007FFCB8040000), size: 1740800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.250
+C:\Windows\system32\nvapi64.dll:nvapi64.dll (00007FFC83600000), size: 4714496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.21.13.8800
+C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_559be11f449da8f4\nvldumdx.dll:nvldumdx.dll (00007FFC91110000), size: 958464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.21.13.8800
+C:\Windows\System32\DriverStore\FileRepository\nvddi.inf_amd64_559be11f449da8f4\nvwgf2umx.dll:nvwgf2umx.dll (00007FFC729F0000), size: 28196864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.21.13.8800
+C:\Windows\system32\nvspcap64.dll:nvspcap64.dll (00007FFC98CD0000), size: 1822720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.10.0.95
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFCBBC70000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFCBFDD0000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFCAF070000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFCB2420000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFCAC950000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (00007FFCACB50000), size: 983040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFCB6FF0000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.447
+C:\Windows\System32\PROPSYS.dll:PROPSYS.dll (00007FFCB8E40000), size: 1662976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.15063.608
+C:\Windows\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFCBB5E0000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\wdmaud.drv:wdmaud.drv (00007FFCAB4A0000), size: 266240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.447
+C:\Windows\SYSTEM32\ksuser.dll:ksuser.dll (00007FFCB73B0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\AVRT.dll:AVRT.dll (00007FFCB65D0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FFCB65E0000), size: 1069056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.502
+C:\Windows\SYSTEM32\wintypes.dll:wintypes.dll (00007FFCB96D0000), size: 1282048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\msacm32.drv:msacm32.drv (00007FFCB7350000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FFCAB480000), size: 114688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.502
+C:\Windows\SYSTEM32\midimap.dll:midimap.dll (00007FFCB7200000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Program Files\Oculus\Support\oculus-runtime\xinput1_3.dll:xinput1_3.dll (0000000010630000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.18.944.0
+C:\Windows\SYSTEM32\TextInputFramework.dll:TextInputFramework.dll (00007FFCAB0A0000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.502
+C:\Windows\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFCAADC0000), size: 2957312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FFCBAB50000), size: 929792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\SYSTEM32\usermgrcli.dll:usermgrcli.dll (00007FFCB6AE0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFCB86B0000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\MFPlat.DLL:MFPlat.DLL (00007FFCA0C70000), size: 1703936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.332
+C:\Windows\SYSTEM32\RTWorkQ.DLL:RTWorkQ.DLL (00007FFCA21A0000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFCB8690000), size: 106496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\MFReadWrite.dll:MFReadWrite.dll (00007FFC9AE30000), size: 999424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFCB79D0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\mfcore.dll:mfcore.dll (00007FFC84490000), size: 4685824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\System32\mfmp4srcsnk.dll:mfmp4srcsnk.dll (00007FFC92A10000), size: 2617344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.502
+C:\Windows\System32\Windows.ApplicationModel.dll:Windows.ApplicationModel.dll (00007FFCB5F80000), size: 561152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.447
+C:\Windows\System32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFCBB430000), size: 1507328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.332
+C:\Windows\SYSTEM32\CompPkgSup.DLL:CompPkgSup.DLL (00007FFCA1E00000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\AppXDeploymentClient.dll:AppXDeploymentClient.dll (00007FFCB5ED0000), size: 659456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.608
+C:\Windows\System32\StateRepository.Core.dll:StateRepository.Core.dll (00007FFCB6010000), size: 671744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\Windows.StateRepository.dll:Windows.StateRepository.dll (00007FFCB60C0000), size: 5267456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.502
+C:\Windows\System32\msmpeg2vdec.dll:msmpeg2vdec.dll (00007FFC93EE0000), size: 2392064 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\mfperfhelper.dll:mfperfhelper.dll (00007FFC93DB0000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFCB7F00000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+C:\Windows\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FFCBC960000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.15063.0
+
+========== OUTPUTING STACK TRACE ==================
+
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF70F91061A)
+0x00007FF70F91061A (Conformation01) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF70F8986E1)
+0x00007FF70F8986E1 (Conformation01) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF70FD4BD6C)
+0x00007FF70FD4BD6C (Conformation01) 
+0x0000000004A8CCD1 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Mesh:SetArrayForChannelImpl (UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Mesh/InternalVertexChannelType,int,System.Array,int)
+0x0000000004A8CAEA (Mono JIT Code) UnityEngine.Mesh:SetSizedArrayForChannel (UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Mesh/InternalVertexChannelType,int,System.Array,int)
+0x0000000004A8C8FC (Mono JIT Code) UnityEngine.Mesh:SetArrayForChannel<UnityEngine.Vector3> (UnityEngine.Mesh/InternalShaderChannel,UnityEngine.Vector3[])
+0x0000000004A8C857 (Mono JIT Code) UnityEngine.Mesh:set_vertices (UnityEngine.Vector3[])
+0x0000000004A8C084 (Mono JIT Code) SphericalModler:UpdateMesh (UnityEngine.Mesh)
+0x0000000004A8BA0C (Mono JIT Code) SphericalModler:Update ()
+0x0000000004A5346B (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 00007FFC98385B63)
+0x00007FFC98385B63 (mono) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC982D872D)
+0x00007FFC982D872D (mono) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF70FB802C4)
+0x00007FF70FB802C4 (Conformation01) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF70FB7B54A)
+0x00007FF70FB7B54A (Conformation01) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF70F9EF5F7)
+0x00007FF70F9EF5F7 (Conformation01) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF70F9F9FD5)
+0x00007FF70F9F9FD5 (Conformation01) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF70F79875F)
+0x00007FF70F79875F (Conformation01) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF70F9CC2E5)
+0x00007FF70F9CC2E5 (Conformation01) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF70F52F55B)
+0x00007FF70F52F55B (Conformation01) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF70F52F70A)
+0x00007FF70F52F70A (Conformation01) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF70F5409E0)
+0x00007FF70F5409E0 (Conformation01) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF71053B490)
+0x00007FF71053B490 (Conformation01) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 00007FFCC0092774)
+0x00007FFCC0092774 (KERNEL32) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 00007FFCC0660D51)
+0x00007FFCC0660D51 (ntdll) 
+
+========== END OF STACKTRACE ===========
+
+**** Crash! ****
