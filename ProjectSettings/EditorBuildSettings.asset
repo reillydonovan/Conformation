@@ -14,10 +14,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Kvant/Swarm/Test/Test (Floating) 2.unity
     guid: 63ab96e7645c4bf43ad562a7455dc4e7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/OOSMaster.unity
     guid: a58d55fff5368f047bbdfa9075666d39
   - enabled: 0
     path: Assets/Scenes/CornishMaster.unity
     guid: a60e2dbc43742eb4e90a991bf488235d
+  - enabled: 1
+    path: Assets/Scenes/ViveAudioMaster.unity
+    guid: 485f5479e3f67cf4eace4811d2d14c53
   m_configObjects: {}
