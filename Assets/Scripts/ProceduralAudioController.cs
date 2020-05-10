@@ -30,7 +30,7 @@ public class ProceduralAudioController : MonoBehaviour {
 	[Header("Volume / Frequency")]
 	[Range(0.0f,1.0f)]
 	public float masterVolume = 0.5f;
-	[Range(0,2000)]
+	[Range(100,2000)]
 	public double mainFrequency = 500;
 	[Space(10)]
 
@@ -51,13 +51,13 @@ public class ProceduralAudioController : MonoBehaviour {
 
 	[Header("Amplitude Modulation")]
 	public bool useAmplitudeModulation;
-	[Range(0.2f,30.0f)]
+	[Range(0.0f,30.0f)]
 	public float amplitudeModulationOscillatorFrequency = 1.0f;
 	[Header("Frequency Modulation")]
 	public bool useFrequencyModulation;
-	[Range(0.2f,30.0f)]
+	[Range(0.0f,30.0f)]
 	public float frequencyModulationOscillatorFrequency = 1.0f;
-	[Range(1.0f,100.0f)]
+	[Range(0.0f,100.0f)]
 	public float frequencyModulationOscillatorIntensity = 10.0f;
 
 	[Header("Out Values")]
